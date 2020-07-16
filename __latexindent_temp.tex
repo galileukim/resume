@@ -1,0 +1,178 @@
+% !TEX program = latexmk
+% !TEX options = -synctex=1 -file-line-error -halt-on-error -xelatex -outdir="%OUTDIR%" "%DOC%"
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{GALILEU}{KIM}{ \urlstyle{same}\href{http://kimgalileu.com}{kimgalileu.com}\\
+\href{mailto:galileukim@gmail.com}{galileukim@gmail.com} | 609.455.2983
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     EDUCATION
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \section{Education}
+    
+    \subsection{Princeton University}
+    \descript{Ph.D. in Political Science}
+    \location{Expected May 2021 | Princeton, US}
+    GPA: 3.77 / 4.0
+    \sectionsep
+    
+    \subsection{University of Pennsylvania}
+    \descript{B.A. in Political Science and Economics}
+    \location{2009 - 2013 | Philadelphia, US}
+    % College of Engineering \\
+    GPA: 3.85/ 4.0\\
+    Summa cum laude, Phi Beta Kappa
+    \sectionsep
+    
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     SKILLS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \section{Skills}
+    \subsection{Programming}
+    R \textbullet{} Python \textbullet{} SQL \\
+    ArcGIS \textbullet{} Spark
+    
+    \subsection{Technology}
+    GitHub \textbullet{} DataBricks \textbullet{} Linux \\
+    \sectionsep
+    
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     AWARDS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \section{Grants}
+    Lassen Fellowship for Latin American Scholars\\
+    Princeton Institute for International and Regional Studies\\
+    Program for Latin American Studies\\
+    Mahmoud Bobst Center for Peace and Justice
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     COURSEWORK
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \section{Coursework}
+    \subsection{Graduate}
+    Comparative Political Economy of Development\\
+    Quantitative Analysis I/II/III/IV\\
+    Latin American Politics\\
+    Clientelism and Redistributive Politics
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     Societies
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \section{Societies}
+    Brazil Lab\\
+    Program in Political Economy\\
+    Program for Latin American Studies\\
+    Penn Brazil Club\\
+    \sectionsep
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %     LINKS
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    \section{Links}
+    Github:// \href{https://github.com/galileukim}{\bf galileukim} \\
+    LinkedIn://  \href{https://www.linkedin.com/in/galileu-kim}{\bf galileu-kim} \\
+    \sectionsep
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %
+    %     COLUMN TWO
+    %
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \hfill
+    \end{minipage} 
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{ELOGROUP}
+\descript{| Data Scientist }
+\location{2019 - present | Brasilia, Brazil}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Partnership with the Brazilian Department of Labor to restructure national employment system (SINE) and create a job matching algorithm for over 60 million formal workers in Brazil.
+\item Partnership with the Brazilian Ministry of Finance to create a detection algorithm and triage system for irregular payrolls in the federal bureaucracy. Savings of over 50 million BRL every month.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{INSTITUTO DEL PERU}
+\descript{| Research member }
+\location{2013 – 2015 | Lima, Peru}
+\begin{tightemize}
+\item Solo-authored study on the diffusion of agricultural technologies in Peru between 1994 and 2012, funded by the Food and Agriculture Organization (FAO) and the Consorcio de Investigación Económica y Social (CIES).
+\item Comparative study of the impact of mining and improvements in road infrastructure on the development of the Peruvian Andes, with Richard Webb and Giovanni Bonfiglio.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Princeton University}
+\descript{| Assistant Instructor }
+\location{2015 - 2017 | Princeton, US}
+\begin{tightemize}
+\item Instructor for 250+ students for intro and advanced courses on quantitative social sciences courses, with lectures on causal inference and statistical theory in programming language R.
+\item Instructor for 80+ students for introductory course on comparative politics, with emphasis on the political economy of development, welfare states, and state capacity in Latin America.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Government through Patronage: Bargaining for Education in Brazil}
+\descript{| Solo}
+\begin{tightemize}
+\item Hierarchical linear model estimation of the effect of teacher and school principal turnover on student learning in municipal public schools.
+\item Assess how patronage networks leave educational staff vulnerable to turnover, as mayors exchange public sector jobs with brokers.
+\item In-situ interviews with educational staff and local political actors; statistical analysis of large-scale administrative data on student test scores and bureaucratic careers. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Are anti-corruption audits effective? Evidence from Brazil }
+\descript{| Co-Authored with Romain Ferrali}
+\begin{tightemize}
+\item Program evaluation of the Brazilian Comptroller General's (CGU) municipal anti-corruption audits program.
+\item Audits program ineffective at removing corrupt bureaucrats from public office, but better local regulatory environments are effective at reducing corruption.
+\end{tightemize}
+\sectionsep
+
+\end{minipage} 
+
+\end{document}  \documentclass[]{article}
