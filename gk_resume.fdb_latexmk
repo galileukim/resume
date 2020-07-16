@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1594925079 "/home/gali/gdrive/personal/job_search/resume/gk_resume.tex" "/home/gali/gdrive/personal/job_search/resume/gk_resume.pdf" "gk_resume" 1594925149
+["pdflatex"] 1594925079 "/home/gali/gdrive/personal/job_search/resume/gk_resume.tex" "/home/gali/gdrive/personal/job_search/resume/gk_resume.pdf" "gk_resume" 1594925437
   "/etc/texmf/web2c/texmf.cnf" 1585227716 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/gali/gdrive/personal/job_search/resume/gk_resume.aux" 1594925079 1335 e20a1c6ec5b9818d5757de5c8e6627dc ""
-  "/home/gali/gdrive/personal/job_search/resume/gk_resume.tex" 1594925149 6276 eeea902180675d0a083aee094fee3b7d ""
+  "/home/gali/gdrive/personal/job_search/resume/gk_resume.tex" 1594925437 6276 eeea902180675d0a083aee094fee3b7d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -59,10 +59,10 @@
   "deedy-resume-openfont.cls" 1594921238 2819 807782ba0df93dfd3420c28039024365 ""
   "gk_resume.aux" 1594925079 1335 e20a1c6ec5b9818d5757de5c8e6627dc ""
   "gk_resume.out" 1594925079 373 6bde2638a4a4710f734227fe7c6e233e ""
-  "gk_resume.tex" 1594925149 6276 eeea902180675d0a083aee094fee3b7d ""
+  "gk_resume.tex" 1594925437 6276 eeea902180675d0a083aee094fee3b7d ""
   (generated)
+  "gk_resume.aux"
   "gk_resume.log"
+  "/home/gali/gdrive/personal/job_search/resume/gk_resume.log"
   "/home/gali/gdrive/personal/job_search/resume/gk_resume.pdf"
   "gk_resume.out"
-  "gk_resume.aux"
-  "/home/gali/gdrive/personal/job_search/resume/gk_resume.log"
